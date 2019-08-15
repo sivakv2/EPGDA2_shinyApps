@@ -2,7 +2,7 @@ library(shiny)
 library(gapminder)
 library(DT)
 
-# Define UI for application that draws a histogram
+# Define UI for application that displays text - r output
 ui <- fluidPage(
    
    # Application title
@@ -11,7 +11,7 @@ ui <- fluidPage(
    verbatimTextOutput("summary")
 )
 
-# Define server logic required to draw a histogram
+# Define server logic required to display - r output
 server <- function(input, output) {
   
   #Create the table
