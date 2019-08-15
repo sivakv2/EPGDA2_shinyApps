@@ -3,7 +3,7 @@ library(shiny)
 
 # Define UI for the application
 ui <- fluidPage(
-  # Add text 
+  # Add text ...
   "Coding in Shiny begins"
 )
 
