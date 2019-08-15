@@ -3,7 +3,7 @@ library(ggplot2)
 library(gapminder)
 library(DT)
 
-# Define UI for application that fetches table
+# Define UI for application that fetches tables and show side panel
 ui <- fluidPage(
    
    # Application title
