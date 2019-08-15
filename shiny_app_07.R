@@ -1,7 +1,7 @@
 library(shiny)
 library(gapminder)
 
-# Define UI for application for table
+# Define UI for application for table data
 ui <- fluidPage(
    
    # Application title
