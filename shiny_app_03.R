@@ -4,14 +4,14 @@ library(shiny)
 # Define UI for the application
 ui <- fluidPage(
 
-    h1("Header 1"),
+    h1("EPGDA Class"),
     hr(),
     br(),
-    p(strong("bold")),
-    p(em("italic")),
-    p(code("code")),
-    a(href="http://www.tiss.edu", "link"),
-    HTML("<p>Raw html</p>")
+    p(strong("Session 2 - Bold")),
+    p(em("Buildign web applications - italic")),
+    p(code("Adding more code to R")),
+    a(href="http://www.tiss.edu", "visit www.tiss.edu link"),
+    HTML("<p>The text goes here....</p>")
 )
 
 # Define the server logic
