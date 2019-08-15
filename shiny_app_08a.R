@@ -3,7 +3,7 @@ library(ggplot2)
 library(gapminder)
 library(DT)
 
-# Define UI for application that draws a histogram
+# Define UI for application displays text
 ui <- fluidPage(
    
    # Application title
@@ -12,7 +12,7 @@ ui <- fluidPage(
    textOutput("summary")
 )
 
-# Define server logic required to draw a histogram
+# Define server logic required to display text
 server <- function(input, output) {
   
   #Create the table
